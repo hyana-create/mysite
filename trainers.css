@@ -1,0 +1,57 @@
+.trainers-row {
+    display: flex;
+    justify-content: center; /* Центрировать по горизонтали */
+    align-items: center;     /* Выровнять по вертикали */
+    gap: 20px;               /* Расстояние между блоками */
+    flex-wrap: nowrap;       /* В линию, без переноса */
+}
+
+/* Размеры фото */
+.photo-block img {
+    width: 350px; /* фиксированный размер */
+    height: 500px; /* или другое фиксированное значение, если хотите квадратные */
+    object-fit: cover; /* чтобы изображение заполняло рамку без искажения */
+    display: block;
+    border-radius: 10px;
+}
+/* Блок с информацией */
+.info-block {
+    width: 350px; /* фиксированный размер */
+    height: 400px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px #fefefe;
+    text-align: center;
+    font-family: "Cormorant Unicase", serif;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+/* Стиль кнопки */
+.register-button {
+    margin-top: 20px;
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    color: white;
+    background-color: #97c3ef;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s, opacity 0.3s;
+    font-family: "Cormorant Unicase", serif;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.register-button:hover {
+    background-color: #5EACDD;
+    opacity: 0.8;
+}
+h6 {
+    font-family: "Cormorant Unicase", serif;
+    font-size: 30px;
+    font-weight: 100;
+}
+#unique-padding {
+  padding: 40px;
+}

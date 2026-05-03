@@ -1,0 +1,36 @@
+.btn {
+    display: inline-block;
+    padding: 2rem 3rem;
+    font-family: inherit;
+    font-size: 1.3rem;
+    color: var(--white);
+    text-decoration: none; 
+    transition: text-decoration 0.2s; 
+}
+
+.btn:hover {
+    text-decoration: underline; 
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  /* gap: 350px; */
+  width: 100%;
+}
+
+.hero--info button {
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+    color: white;
+    background-color: #b0d2f4;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s, opacity 0.3s;
+}
+
+.hero--info button:hover {
+    background-color: #5EACDD; 
+    opacity: 0.8;
+}

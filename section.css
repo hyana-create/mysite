@@ -1,0 +1,21 @@
+.section--light {
+    background-color: var(--light);
+    background-image: linear-gradient();
+    padding-bottom: 10px;
+
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 70%; 
+}
+
+.section-title {
+    font-family: "Cormorant Unicase", serif;
+    font-size: 100px;
+    font-weight: 100;
+    margin-top:0;
+    padding: auto;
+}
+    

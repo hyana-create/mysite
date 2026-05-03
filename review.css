@@ -1,0 +1,80 @@
+ /* .reviews-container {
+    display: grid;
+    grid-template-areas:
+
+}
+#review1 {
+  grid-column-start: 1;
+  padding: 2rem 3rem;
+}
+
+#review2 {
+  grid-column-start: 2;
+  padding: 2rem 3rem;
+}
+
+#review3 {
+  grid-row-start: 2;
+  padding: 2rem 3rem; */
+}
+
+/* h7 {
+  font-family: "Cormorant Unicase", serif;
+  font-size: 70px;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  text-align: center; 
+  margin: 10px 0;
+} */
+
+/* Размер и закругление изображений отзывов */
+.review img {
+  max-width: 70%; /* уменьшите при необходимости */
+  height: auto;
+  display: block;
+  border-radius: 40px; /* закруглённые углы */
+  
+} 
+.reviews-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto; /* 3 строки */
+  gap: 20px;
+}
+
+#review1 {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+#review2 {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+#review3 {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+/* Размер и закругление изображений */
+.review img {
+  border-radius: 35px;
+  width: 70%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.reviews-title {
+  padding: 30px;
+  display: flex;
+  text-align: center; /* по центру */
+  font-family: "Cormorant Unicase", serif;
+  font-size: 70px;
+  font-weight: 100;
+  margin-bottom: 20px; 
+   width: 200px; /* например */
+  margin: 0 auto;/* расстояние до секции с отзывами */
+}

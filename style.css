@@ -1,0 +1,49 @@
+@import "header.css";
+@import "nav.css";
+@import "btn.css";
+@import "hero.css";
+@import "section.css";
+@import "square.css";
+@import "trainers.css";
+@import "review.css";
+@import "modal.css";
+
+
+:root {
+    --primary: #5EACDD;
+    --light: #A2C9F0;
+    --white: #FFFFFF;
+    --blue: #d4e4f5; 
+    
+}
+
+html {
+    font-size: 90%;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth; }
+
+body {
+    margin: 0;
+    padding: auto;
+     font-family: "Cormorant Unicase", serif;
+     font-weight: 300;
+     font-style: normal;
+     font-size: 1.6rem;
+     color: #FFFFFF;
+}
+
+*, *::before, *::after{
+    box-sizing: border-box;
+       .header {
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem 3rem;
+        background-color: #5EACDD;
+        position: fixed;
+        width: 100%;
+
+}
+p1 {
+    padding: 10px;
+}

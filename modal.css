@@ -1,0 +1,57 @@
+/* Стиль модального окна */
+.modal {
+  display: none; /* Скрыто по умолчанию */
+  position: fixed; /* Поверх всего */
+  z-index: 1000; /* На вершине */
+  left: 0;
+  top: 0;
+  width: 100%; /* Полный экран */
+  height: 100%;
+  overflow: auto; /* Если контента много */
+  background-color: rgba(146, 232, 237, 0); /* Полупрозрачный фон */
+}
+
+/* Контейнер формы */
+.modal-content {
+  background-color: #ffffff;
+  margin: 15% auto; /* Центр по вертикали */
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 500px;
+  position: relative;
+  color: #5EACDD;
+}
+
+/* Кнопка закрытия */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Общий стиль для кнопки отправки */
+button[type="submit"] {
+  background-color: #5EACDD; /* Зеленый фон */
+  color: white; /* Белый текст */
+  padding: 12px 24px; /* Отступы */
+  border: none; /* Без рамки */
+  border-radius: 8px; /* Скругленные углы */
+  font-family: "Cormorant Unicase", serif;
+  font-size: 20px; /* Размер шрифта */
+  font-weight: 100;
+  cursor: pointer; /* Курсор в виде руки при наведении */
+  transition: background-color 0.3s, transform 0.2s; /* Плавность эффектов */
+}
+
+button[type="submit"]:hover {
+  background-color: #cbdaee; /* Немного темнее при наведении */
+  transform: scale(1.05); /* Немного увеличивается при наведении */
+}
+
+button[type="submit"]:active {
+  transform: scale(0.98); /* Немного уменьшается при клике */
+}
